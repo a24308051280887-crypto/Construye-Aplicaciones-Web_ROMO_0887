@@ -1,82 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipos de listas en HTML</title>
-</head>
-<body>
-    <h1>Tipos de listas</h1>
-    <h2>Listas ordenadas</h2>
+<!DOCTYPE html> <!-- Indica que es un documento HTML -->
+<html lang="en"> <!-- Se abre el html -->
+<head> <!-- Es el encabezado -->
+    <meta charset="UTF-8"> <!-- Le indica como usar los caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Esto le da la estructura a la pagina dandole el tamano -->
+    <title>Tipos de listas en HTML</title> <!-- Es el titulo que se vera en la pestana -->
+</head> <!-- Se cierra el encabezado -->
+<body> <!-- Es el contenido de la pagina -->
+    <h1>Tipos de listas</h1> <!-- Titulo "Tipos de listas" -->
+    <h2>Listas ordenadas</h2> <!-- Subtitulo "Listas ordenadas" -->
     <p>Una lista ordenada es una serie de elementos los cuales 
         tendran una numeracion de acuerdo al numeros de elementos.
-    </p>
-    <ol>
-        <li>Luna Arias </li>
-        <li>Franco Andrea</li>
-        <li>Granados Evelyn</li>
-    </ol>
-    <h2>Listas no ordenadas</h2>
+    </p> <!-- Parrafo que explica que es una lista ordenada -->
+    <ol> <!-- Se abre una lista ordenada -->
+        <li>Luna Arias </li> <!-- Primer elemento de la lista -->
+        <li>Franco Andrea</li> <!-- Segundo elemento de la lista -->
+        <li>Granados Evelyn</li> <!-- Tercer elemento de la lista -->
+    </ol> <!-- Se cierra la lista ordenada -->
+    <h2>Listas no ordenadas</h2> <!-- Subtitulo "Listas no ordenadas" -->
     <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
         de cada item sino un pequeño elemento grafico
-    </p>
-    <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>Python</li>
-    </ul>
-    <h2>Lista de definiciones</h2>
-    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
-    <dl>
+    </p> <!-- Parrafo que explica que es una lista no ordenada -->
+    <ul> <!-- Se abre una lista no ordenada -->
+        <li>C</li> <!-- Primer elemento de la lista -->
+        <li>C++</li> <!-- Segundo elemento de la lista -->
+        <li>Python</li> <!-- Tercer elemento de la lista -->
+    </ul> <!-- Se cierra la lista no ordenada -->
+    <h2>Lista de definiciones</h2> <!-- Subtitulo "Lista de definiciones" -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- Parrafo que explica para que sirve una lista de definiciones -->
+    <dl> <!-- Se abre la lista de definiciones -->
         <!-- Primer termino-->
-        <dt>C++</dt>
+        <dt>C++</dt> <!-- Muestra el primer termino -->
         <!-- Definicion del primer termino-->
         <dd>
             Es un lenguaje de programacion, diseñado a mediados de los años
             1980 como extension del lenguaje de programacion C.
-        </dd>
+        </dd> <!-- Muestra la definicion del primer termino -->
         <!-- Segundo termino-->
-        <dt>Java</dt>
+        <dt>Java</dt> <!-- Muestra el segundo termino -->
         <!-- Definicion del segundo termino-->
         <dd>
             Es un lenguaje de programacion orientado a objetos desarrollado
             por Sun Microsystem a principios de los 90.
-        </dd>
+        </dd> <!-- Muestra la definicion del segundo termino -->
         <!-- Tercer termino-->
-        <dt>JavaScript</dt>
+        <dt>JavaScript</dt> <!-- Muestra el tercer termino -->
         <!-- Definicion del tercer termino-->
         <dd>
             Es un lenguaje interpretado, es decir que no requiere compilacion,
             utilizado principalmente en paginas web, con una sintaxis similar
             al lenguaje de programacion C.
-        </dd>
-    </dl>
-    <h2>Listas anidadas</h2>
+        </dd> <!-- Muestra la definicion del tercer termino -->
+    </dl> <!-- Se cierra la lista de definiciones -->
+    <h2>Listas anidadas</h2> <!-- Subtitulo "Listas anidadas" -->
     <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
         anidar diferentes tipos de lista de acuerdo al requerimiento
-    </p>
-    <ol>
-        <li>Argentina
-            <ul>
-                <li>Buenos aires</li>
-                <li>La plata</li>
-                <li>Mendoza</li>
-            </ul>
-        </li>
-        <li>España
-            <ul>
-                <li>Barcelona</li>
-                <li>Madrid</li>
-                <li>Sevilla</li>
-            </ul>
-        </li>
-        <li>Mexico
-            <ul>
-                <li>Chihuahua</li>
-                <li>Cd. Juarez</li>
-                <li>Hermosillo</li>
-            </ul>
-        </li>
-    </ol>
-</body>
-</html>
+    </p> <!-- Parrafo que explica que son las listas anidadas -->
+    <ol> <!-- Se abre una lista ordenada -->
+        <li>Argentina <!-- Primer elemento de la lista -->
+            <ul> <!-- Se abre una lista no ordenada dentro de Argentina -->
+                <li>Buenos aires</li> <!-- Primer elemento de la lista -->
+                <li>La plata</li> <!-- Segundo elemento de la lista -->
+                <li>Mendoza</li> <!-- Tercer elemento de la lista -->
+            </ul> <!-- Se cierra la lista de Argentina -->
+        </li> <!-- Se cierra el primer elemento -->
+        <li>España <!-- Segundo elemento de la lista -->
+            <ul> <!-- Se abre una lista no ordenada dentro de España -->
+                <li>Barcelona</li> <!-- Primer elemento de la lista -->
+                <li>Madrid</li> <!-- Segundo elemento de la lista -->
+                <li>Sevilla</li> <!-- Tercer elemento de la lista -->
+            </ul> <!-- Se cierra la lista de España -->
+        </li> <!-- Se cierra el segundo elemento -->
+        <li>Mexico <!-- Tercer elemento de la lista -->
+            <ul> <!-- Se abre una lista no ordenada dentro de Mexico -->
+                <li>Chihuahua</li> <!-- Primer elemento de la lista -->
+                <li>Cd. Juarez</li> <!-- Segundo elemento de la lista -->
+                <li>Hermosillo</li> <!-- Tercer elemento de la lista -->
+            </ul> <!-- Se cierra la lista de Mexico -->
+        </li> <!-- Se cierra el tercer elemento -->
+    </ol> <!-- Se cierra la lista ordenada -->
+</body> <!-- Se cierra el contenido de la pagina -->
+</html> <!-- Se cierra el html -->
+
