@@ -1,0 +1,32 @@
+<!-- Inicio del documento HTML -->
+ <!-- rodriguez martinez -->
+  <!-- 0887-5j -->
+<html>
+    <head>
+        <!-- Título que aparecerá en la pestaña del navegador -->
+        <title>Página WEB de ejemplo: texto</title>
+    </head>
+
+    <!-- Define el cuerpo de la página con el color de texto por defecto en naranja ("orange") -->
+    <body text="orange">
+        
+        <!-- Uso de <b> para negrita y combinación <b><u> para negrita y subrayado al mismo tiempo -->
+        <b>Esta es una línea</b>, y a continuación <b><u>insertamos un salto</u></b> de línea.<br/>
+        
+        <!-- Uso de la etiqueta <u> para aplicar únicamente subrayado -->
+        Esta es una línea, y <u>a continuación insertamos</u> un salto de línea.<br/>
+        
+        <!-- Uso de <strong> para dar énfasis/negrita e <i> para letra cursiva (itálica) -->
+        Esta es una línea, y <strong>a continuación</strong> insertamos un <i>salto de línea</i>.<br/>
+        
+        <!-- Uso de la etiqueta <font> para cambiar el color (green) y tamaño (11px) del texto -->
+        <font color="green" size="11px">Esta es una línea</font>, y a continuación insertamos un <i>salto
+        
+        <!-- Uso de <font> con el atributo face para cambiar la tipografía (Arial) y color a rojo -->
+        <font face="Arial">Esta es una</font> línea, y <font color="red">a continuación</font> insertamos
+        
+        <!-- Inicio de un párrafo <p> combinando <font color="cyan">, subrayado <u> y negrita <b> -->
+        <p>Este es una párrafo <font color="cyan">con <u>la letra</u> en <b>diferentes formatos</b></font>
+        
+    </body>
+</html>
