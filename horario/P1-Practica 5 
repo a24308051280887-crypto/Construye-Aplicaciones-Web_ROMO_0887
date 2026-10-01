@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- rodriguez martinez -->
+  <!-- 0887-5j -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi horario</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            font-family: Arial;
+            font-size: 12px;
+            height: 55px;
+        }
+
+        .lunes, .martes, .miercoles, .jueves, .viernes {
+            background-color: lightgray;
+        }
+
+        /* CH 2 */
+        tr:nth-child(2) td:nth-child(3),
+        tr:nth-child(3) td:nth-child(4),
+        tr:nth-child(3) td:nth-child(6) {
+            background-color: #a49a4b;
+        }
+
+        /* Aplicaciones administrativas */
+        tr:nth-child(2) td:nth-child(4),
+        tr:nth-child(3) td:nth-child(3) {
+            background-color: #b8b15e;
+        }
+
+        /* Inglés */
+        tr:nth-child(2) td:nth-child(6),
+        tr:nth-child(3) td:nth-child(5),
+        tr:nth-child(4) td:nth-child(2),
+        tr:nth-child(5) td:nth-child(3),
+        tr:nth-child(8) td:nth-child(3) {
+            background-color: orange;
+        }
+
+        /* Programación M4S1 */
+        tr:nth-child(4) td:nth-child(3),
+        tr:nth-child(4) td:nth-child(4),
+        tr:nth-child(4) td:nth-child(5),
+        tr:nth-child(4) td:nth-child(6) {
+            background-color: #f28c00;
+        }
+
+        /* CNEyT */
+        tr:nth-child(5) td:nth-child(2),
+        tr:nth-child(7) td:nth-child(4),
+        tr:nth-child(7) td:nth-child(6) {
+            background-color: #70c83b;
+        }
+
+        /* Programación M4S2 */
+        tr:nth-child(7) td:nth-child(2),
+        tr:nth-child(7) td:nth-child(3),
+        tr:nth-child(7) td:nth-child(5),
+        tr:nth-child(8) td:nth-child(5) {
+            background-color: gray;
+        }
+
+        /* FS */
+        tr:nth-child(8) td:nth-child(2) {
+            background-color: violet;
+        }
+
+        /* TSdM */
+        tr:nth-child(9) td:nth-child(2),
+        tr:nth-child(9) td:nth-child(3),
+        tr:nth-child(9) td:nth-child(4),
+        tr:nth-child(9) td:nth-child(5),
+        tr:nth-child(9) td:nth-child(6) {
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table border="1">
+
+    <tr>
+        <td>Hora I<br>Hora F</td>
+        <td class="lunes"><center><p>Lunes</p></center></td>
+        <td class="martes"><center><p>Martes</p></center></td>
+        <td class="miercoles"><center><p>Miercoles</p></center></td>
+        <td class="jueves"><center><p>Jueves</p></center></td>
+        <td class="viernes"><center><p>Viernes</p></center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h1">7:00<br>8:00</p></center></td>
+        <td></td>
+        <td><center>5*CH 2<br>Juarez<br>AULA 38</center></td>
+        <td><center>5*Apli. Adm<br>Estrada<br>AULA 38</center></td>
+        <td><center>5*Apli. Adm<br>Estrada<br>AULA 38</center></td>
+        <td><center>5*Ingles 5<br>Terrazas<br>AULA 38</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h2">8:00<br>9:00</p></center></td>
+        <td></td>
+        <td><center>5*Apli. Adm<br>Estrada<br>AULA 38</center></td>
+        <td><center>5*CH 2<br>Juarez<br>AULA 38</center></td>
+        <td><center>5*Ingles 5<br>Terrazas<br>AULA 38</center></td>
+        <td><center>5*CH 2<br>Juarez<br>AULA 38</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h3">9:00<br>10:00</p></center></td>
+        <td><center>5*Ingles 5<br>Terrazas<br>AULA 38</center></td>
+        <td rowspan="2"><center>PROG M4S1<br>Meza<br>AULA 38</center></td>
+        <td><center>PROG M4S1<br>Meza<br>AULA 38</center></td>
+        <td rowspan="2"><center>PROG M4S1<br>Meza<br>AULA 38</center></td>
+        <td rowspan="2"><center>PROG M4S1<br>Meza<br>AULA 38</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h4">10:00<br>10:50</p></center></td>
+        <td><center>5*CNEyT 5<br>Reyes<br>AULA 38</center></td>
+        <td><center>5*Ingles 5<br>Terrazas<br>AULA 38</center></td>
+    </tr>
+    <tr>
+        <td><center>receso</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h5">11:10<br>12:00</p></center></td>
+        <td><center>PROG M4S2<br>Gonzales A<br>AULA38</center></td>
+        <td><center>PROG M4S2<br>Gonzales A<br>AULA38</center></td>
+        <td rowspan="2"><center>5*CNEyT 5<br>Reyes<br>AULA 38</center></td>
+        <td rowspan="2"><center>PROG M4S2<br>Gonzales A<br>AULA38</center></td>
+        <td><center>5*CNEyT 5<br>Reyes<br>AULA 38</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h6">12:00<br>13:00</p></center></td>
+        <td><center>5* FS<br>Meza<br>AULA38</center></td>
+        <td><center>5*Ingles 5<br>Terrazas<br>AULA 38</center></td>
+        <td><center>PROG M4S2<br>Gonzales A<br>AULA38</center></td>
+    </tr>
+    <tr>
+        <td><center><p class="h7">13:00<br>14:00</p></center></td>
+        <td><center>5*TSdM 2<br>Macias<br>AULA38</center></td>
+        <td><center>5*TSdM 2<br>Macias<br>AULA38</center></td>
+        <td><center>5*TSdM 2<br>Macias<br>AULA38</center></td>
+        <td><center>5*TSdM 2<br>Macias<br>AULA38</center></td>
+        <td><center>5*TSdM 2<br>Macias<br>AULA38</center></td>
+    </tr>
+
+</table>       
+</body>
+</html>
